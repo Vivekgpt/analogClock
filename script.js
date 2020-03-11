@@ -1,11 +1,11 @@
 const deg = 6;
-
 const hrs = document.getElementById("hrs");
 const min = document.getElementById("min");
 const sec = document.getElementById("sec");
 
 
 setInterval(() => {
+    
     let day = new Date();
     let hr = day.getHours() * 30;
     let mn = day.getMinutes() * deg;
